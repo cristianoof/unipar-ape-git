@@ -37,10 +37,10 @@ Uma das ferramentas de controle de versão mais populares do mundo, em projetos 
 É uma das mais antigas do mercado sendo lançada no fim da década de 60.
 
 - Vantagem: é fácil de ser operada e com baixa curva de aprendizagem
-- vantagem: ser considerada uma tecnologia antiga e em alguns aspectos ultrapassada
+- Desvantagem: ser considerada uma tecnologia antiga e em alguns aspectos ultrapassada
 
 3 - Subversion  
 Também muito utilizada no meio corporativo, tendo suas funcionalidades bastante rápidas e simples de serem utilizadas.
 
 - Vantagem: é fácil de ser operada com baixa curva de aprendizagem e comandos simples
-- vantagem: é um sistema de controle de versão centralizado, não sendo indicado para equipes grandes ou distribuídas.
+- Desvantagem: é um sistema de controle de versão centralizado, não sendo indicado para equipes grandes ou distribuídas.
