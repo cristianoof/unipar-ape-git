@@ -22,6 +22,8 @@ Segurança, confiabilidade, desempenho, desenvolvimento distribuído, ramificaç
 Ramificações (branches), como o próprio nome diz, são “ramos”, “galhos” de um código. Ao criar uma branch com base no código principal (branch master / main) essa nova branch tem uma cópia do código rodando em produção por exemplo e o desenvolvedor poderá trabalhar em uma correção, ou nova funcionalidade em paralelo, sem que a branch master sofra qualquer alteração, ao fim do trabalho é solicitado um (merge) ou seja, uma unificação do código desenvolvido na branch com o código da master.  
 Feito isso entramos no gerenciamento de conflitos, onde ao solicitar o merge, o Git verifica se há algum conflito entre a nova branch e a branch master, caso houver, o desenvolvedor terá que resolver todos os conflitos de códigos antes de fazer o merge, isso além de facilitar, traz confiabilidade no código.
 
-**5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**
+**5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**  
+O controle de versão ajuda as equipes a solucionarem problemas de conflitos de código, rastrear alterações com possíveis bugs e ter um histórico de toda a vida e evolução do software.  
+Um dos maiores problemas quando não se utiliza um sistema de controle de versionamento, são os conflitos de códigos, principalmente trabalhando em equipe, pois o que um desenvolvedor fez pode não ser compatível com o que outro fez e isso gera um problema muito grande, pois além do conflito, sem um sistema de versionamento, será difícil identificar onde ocorreu o conflito, logo mais difícil de ser solucionado.
 
 **6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**
