@@ -1,6 +1,6 @@
 # APE 11 - Versionamento e Git
 
-Acadêmico: Cristiano Fernandes
+Acadêmico: Cristiano Fernandes  
 RA: 09024599
 
 **1. O que é o Git?**
