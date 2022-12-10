@@ -17,7 +17,10 @@ O Git é fundamental em quase todos os projetos realizados em equipes, têm conf
 Os projetos de um software estão em constante evolução e utilizando o Git, toda essa evolução é mapeada e rastreada, assim em caso de problemas em alguma nova versão, é possível reverter para uma estável.  
 Tudo isso pode ser disponibilizado em repositórios remotos, como Github, Gitlab, entre outros. Facilitando mais uma vez o trabalho em equipe, pois essa pode estar distribuída em qualquer parte do mundo compartilhando do mesmo código.
 
-**4. Quais as vantagens do Git?**
+**4. Quais as vantagens do Git?**  
+Segurança, confiabilidade, desempenho, desenvolvimento distribuído, ramificações (branches), gerenciamento de conflitos, etc. Essas são algumas das vantagens do Git, algumas já falamos anteriormente, agora podemos falar sobre ramificações e gerenciamento de conflitos.  
+Ramificações (branches), como o próprio nome diz, são “ramos”, “galhos” de um código. Ao criar uma branch com base no código principal (branch master / main) essa nova branch tem uma cópia do código rodando em produção por exemplo e o desenvolvedor poderá trabalhar em uma correção, ou nova funcionalidade em paralelo, sem que a branch master sofra qualquer alteração, ao fim do trabalho é solicitado um (merge) ou seja, uma unificação do código desenvolvido na branch com o código da master.  
+Feito isso entramos no gerenciamento de conflitos, onde ao solicitar o merge, o Git verifica se há algum conflito entre a nova branch e a branch master, caso houver, o desenvolvedor terá que resolver todos os conflitos de códigos antes de fazer o merge, isso além de facilitar, traz confiabilidade no código.
 
 **5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**
 
