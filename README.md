@@ -26,4 +26,21 @@ Feito isso entramos no gerenciamento de conflitos, onde ao solicitar o merge, o 
 O controle de versão ajuda as equipes a solucionarem problemas de conflitos de código, rastrear alterações com possíveis bugs e ter um histórico de toda a vida e evolução do software.  
 Um dos maiores problemas quando não se utiliza um sistema de controle de versionamento, são os conflitos de códigos, principalmente trabalhando em equipe, pois o que um desenvolvedor fez pode não ser compatível com o que outro fez e isso gera um problema muito grande, pois além do conflito, sem um sistema de versionamento, será difícil identificar onde ocorreu o conflito, logo mais difícil de ser solucionado.
 
-**6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**
+**6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**  
+1 - Git  
+Uma das ferramentas de controle de versão mais populares do mundo, em projetos corporativos e open source.
+
+- Vantagem: Desenvolvimento distribuído, gerenciamento de conflitos, segurança, confiabilidade, rastreabilidade, etc.
+- Desvantagem: A curva de aprendizagem para trabalhar com o Git é um pouco maior, muitas vezes cobrando do desenvolvedor conhecimentos mais profundos sobre versionamento de código
+
+2 - CVS  
+É uma das mais antigas do mercado sendo lançada no fim da década de 60.
+
+- Vantagem: é fácil de ser operada e com baixa curva de aprendizagem
+- vantagem: ser considerada uma tecnologia antiga e em alguns aspectos ultrapassada
+
+3 - Subversion  
+Também muito utilizada no meio corporativo, tendo suas funcionalidades bastante rápidas e simples de serem utilizadas.
+
+- Vantagem: é fácil de ser operada com baixa curva de aprendizagem e comandos simples
+- vantagem: é um sistema de controle de versão centralizado, não sendo indicado para equipes grandes ou distribuídas.
