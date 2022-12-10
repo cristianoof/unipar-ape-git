@@ -12,7 +12,10 @@ Podemos dizer que é um sistema de controle de versão de códigos de um softwar
 Como exemplo, digamos que em cada finalização de uma etapa, é gerado uma versão, isso facilita para o desenvolvedor ou uma equipe de devs verificar o histórico das alterações, podendo até voltar uma versão estável, em casos que uma nova versão esteja com problemas, assim são feitas as devidas correções, na versão com problema, e gerado uma nova versão atualizada.  
 Hoje em dia é quase que uma obrigação utilizar uma ferramenta de versionamento, principalmente se falando em trabalho em equipe. Uma das mais utilizadas é o Git.
 
-**3. Por que utilizar o Git como controle de versionamento?**
+**3. Por que utilizar o Git como controle de versionamento?**  
+O Git é fundamental em quase todos os projetos realizados em equipes, têm confiabilidade no gerenciamento das versões dos códigos e possibilita o trabalho distribuído, o que para o trabalho em equipe é essencial, pois ele evita que haja conflitos entre as alterações realizadas pelos membros do time.  
+Os projetos de um software estão em constante evolução e utilizando o Git, toda essa evolução é mapeada e rastreada, assim em caso de problemas em alguma nova versão, é possível reverter para uma estável.  
+Tudo isso pode ser disponibilizado em repositórios remotos, como Github, Gitlab, entre outros. Facilitando mais uma vez o trabalho em equipe, pois essa pode estar distribuída em qualquer parte do mundo compartilhando do mesmo código.
 
 **4. Quais as vantagens do Git?**
 
