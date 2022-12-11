@@ -91,6 +91,30 @@ body {
   text-align: justify;
 }
 
+.table-container {
+  border-collapse: collapse;
+}
+
+.table-container > thead > tr {
+  background-color: var(--git-color-secondary);
+  color: #fff;
+}
+
+.table-container th,
+.table-container td {
+  padding: 0.8rem 0;
+  font-size: 0.9rem;
+}
+
+.table-container td {
+  border-bottom: 1px solid var(--git-color-secondary);
+}
+
+.table-container th:first-child,
+.table-container td:first-child {
+  width: 35%;
+}
+
 .footer-container {
   position: fixed;
   width: 100%;
