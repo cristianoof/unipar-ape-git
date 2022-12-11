@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <title>Git com flow</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-logo">
+        <img src="assets/images/logo-git.png" alt="logo git" />
+      </div>
+      <div class="header-menus">
+        <a href="index.html">Home</a>
+        <a href="git-sem-flow.html">Git sem flow</a>
+        <a href="git-com-flow.html">Git com flow</a>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <div class="main-title">
+        <h1>Principais comandos do Git | com Flow</h1>
+      </div>
+
+      <div class="main-content">
+        <h3>Contextualizando um pouco o Git Flow</h3>
+        <p>
+          Git Flow é uma estratégia ou metodologia de trabalho, ela foi criada
+          para facilitar o trabalho em equipe com o Git.
+        </p>
+        <p>
+          Com o Git flow, trabalhamos com 5 branches: Master / Main, Develop,
+          Feature, Release e Hotfix. Essa divisão em branches é o que traz toda
+          a organização para o projeto, onde a Master está o código em produção,
+          a Develop a próxima versão candidata a produção, Feature onde estão
+          sendo desenvolvidas as novas funcionalidades, Release que faz a ponte
+          entre a Develop e Master e Hotfix para correções.
+        </p>
+        <p>
+          Temos duas maneiras de trabalhar com o Git Flow: uma com os comandos
+          tradicionais do Git, porém seguindo metodologia do Git Flow e outra é
+          instalando a CLI do Git Flow e usando os comandos específicos da CLI.
+        </p>
+        <p>
+          Abaixo vamos abordar os principais comandos utilizando a CLI do Git
+          Flow
+        </p>
+      </div>
+
+      <table class="table-container">
+        <thead>
+          <tr>
+            <th>Comando</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>$ git flow init</td>
+            <td>O comando cria a branch Develop com base na Master.</td>
+          </tr>
+
+          <tr>
+            <td>$ git flow feature start [nome-feature]</td>
+            <td>O comando cria a branch Feature</td>
+          </tr>
+
+          <tr>
+            <td>$ git flow feature finish [nome-feature]</td>
+            <td>
+              Ao finalizar uma funcionalidade desenvolvida na Feature, esse
+              comando faz a finalização
+            </td>
+          </tr>
+
+          <tr>
+            <td>$ git flow hotfix start [nome-hotfix]</td>
+            <td>O comando cria a branch Hotfix</td>
+          </tr>
+
+          <tr>
+            <td>$ git flow hotfix finish [nome-hotfix]</td>
+            <td>
+              Ao finalizar uma correção desenvolvida em Hotfix, esse comando faz
+              a finalização
+            </td>
+          </tr>
+
+          <tr>
+            <td>$ git flow release start [1.0.0]</td>
+            <td>
+              O comando cria a branch Release, nesse caso incluindo a versão
+            </td>
+          </tr>
+
+          <tr>
+            <td>$ git flow release finish [1.0.0]</td>
+            <td>
+              Ao finalizar o desenvolvimento na Release, esse comando faz a
+              finalização
+            </td>
+          </tr>
+
+          <tr>
+            <td>$ git flow feature pull [nome-feature]</td>
+            <td>
+              Puxa os arquivos atualizados do repositório removo para o
+              repositório local, nesse exemplo usamos a branch Feature, mas o
+              comando é o mesmo para as outras branches
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer class="footer-container">
+      <span>Desenvolvido por:</span>
+      <a
+        href="https://www.linkedin.com/in/cristiano-fernandes-acl/"
+        target="_blank"
+        class="footer-developed"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 256 256"
+        >
+          <rect width="256" height="256" fill="none"></rect>
+          <rect
+            x="36"
+            y="36"
+            width="184"
+            height="184"
+            rx="8"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="16"
+          ></rect>
+          <line
+            x1="120"
+            y1="112"
+            x2="120"
+            y2="176"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="16"
+          ></line>
+          <line
+            x1="88"
+            y1="112"
+            x2="88"
+            y2="176"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="16"
+          ></line>
+          <path
+            d="M120,140a28,28,0,0,1,56,0v36"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="16"
+          ></path>
+          <circle cx="88" cy="80" r="12"></circle>
+        </svg>
+        <span>Cristiano Fernandes</span>
+      </a>
+    </footer>
+  </body>
+</html>

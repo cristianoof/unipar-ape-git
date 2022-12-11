@@ -27,7 +27,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   background-color: #dcdcdc;
   padding: 1rem 3rem;
   border-bottom: 4px solid var(--git-color-secondary);
@@ -68,6 +67,21 @@ body {
 
 .main-title > h1 {
   font-size: 1.5rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  line-height: 1.3rem;
+  text-align: justify;
+  padding: 1rem;
+  border: 1px solid #dcdcdc;
+}
+
+.main-content > h3 {
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .questions-container {
@@ -115,6 +129,10 @@ body {
   width: 30%;
 }
 
+.table-container td:first-child {
+  padding-right: 0.5rem;
+}
+
 .footer-container {
   position: fixed;
   width: 100%;
@@ -144,4 +162,25 @@ body {
   text-decoration: none;
   font-weight: 500;
   color: #4682b4;
+}
+
+@media screen and (max-width: 580px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .header-container,
+  .main-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .main-container {
+    margin-top: 124px;
+  }
 }
