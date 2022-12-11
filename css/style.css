@@ -73,7 +73,7 @@ body {
 .questions-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .questions {
@@ -86,7 +86,14 @@ body {
   font-weight: 600;
 }
 
+.questions > p {
+  line-height: 1.5rem;
+}
+
 .footer-container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
