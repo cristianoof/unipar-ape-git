@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #dcdcdc;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   border-bottom: 4px solid var(--git-color-secondary);
 }
 
@@ -63,7 +63,7 @@ body {
   gap: 1rem;
   flex: 1;
   margin-top: 94px;
-  padding: 2rem;
+  padding: 2rem 3rem;
 }
 
 .main-title > h1 {
@@ -88,6 +88,7 @@ body {
 
 .questions > p {
   line-height: 1.5rem;
+  text-align: justify;
 }
 
 .footer-container {
@@ -113,4 +114,10 @@ body {
 
 .footer-developed > i {
   font-size: 1.3rem;
+}
+
+.link-in-text {
+  text-decoration: none;
+  font-weight: 500;
+  color: #4682b4;
 }
