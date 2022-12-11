@@ -138,7 +138,26 @@
 
         <div class="questions">
           <span>5 - Como resolver possíveis conflitos no Git?</span>
-          <p>R: resposta</p>
+          <p>
+            Os conflitos no Git são muito comuns, principalmente com trabalho em
+            equipe, mas como o Git é uma ferramenta fantástica, ele nos ajuda a
+            resolver esses problemas.
+          </p>
+          <p>
+            Conflitos de merge ocorrem quando se tem duas ou mais versões do
+            mesmo ponto do código, exemplo, digamos que um desenvolvedor alterou
+            a linha 25 de um arquivo e outro também alterou a mesma linha, ambos
+            fazem o commit e push de suas alterações. Com isso o Git não
+            conseguirá fazer o merge automático dessas alterações pois não sabe
+            qual é a versão que deverá manter, nesses casos é preciso
+            intervenção manual para resolver o conflito.
+          </p>
+          <p>
+            Após resolver o conflito será preciso fazer um novo commit e push
+            para o repositório remoto. Vale ressaltar que os conflitos de merge
+            ocorrem tanto entre branches quanto entre commits dentro da mesma
+            branch.
+          </p>
         </div>
       </div>
     </main>
