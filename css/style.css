@@ -34,7 +34,7 @@ body {
 }
 
 .header-logo > img {
-  width: 130px;
+  width: 120px;
 }
 
 .header-menus {
@@ -112,7 +112,7 @@ body {
 
 .table-container th:first-child,
 .table-container td:first-child {
-  width: 35%;
+  width: 30%;
 }
 
 .footer-container {
