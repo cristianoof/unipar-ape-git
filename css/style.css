@@ -9,9 +9,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--git-color-secondary);
+  display: flex;
+  flex-direction: column;
 }
 
 .header-container {
@@ -52,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  flex: 1;
   padding: 2rem;
 }
 
@@ -69,4 +77,26 @@ body {
 
 .questions span:first-child {
   font-weight: 600;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 1rem;
+  background-color: var(--git-color-secondary);
+  color: #fff;
+}
+
+.footer-developed {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-developed > i {
+  font-size: 1.3rem;
 }
